@@ -1,0 +1,6 @@
+C:\Users\lequy\OneDrive\Desktop\onlineshop\Common\bin\Debug\Common.dll
+C:\Users\lequy\OneDrive\Desktop\onlineshop\Common\bin\Debug\Common.pdb
+C:\Users\lequy\OneDrive\Desktop\onlineshop\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\lequy\OneDrive\Desktop\onlineshop\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\lequy\OneDrive\Desktop\onlineshop\Common\obj\Debug\Common.dll
+C:\Users\lequy\OneDrive\Desktop\onlineshop\Common\obj\Debug\Common.pdb
