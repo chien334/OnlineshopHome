@@ -9,3 +9,14 @@ C:\Users\lequy\OneDrive\Desktop\onlineshop\StaticResources\obj\Debug\StaticResou
 C:\Users\lequy\OneDrive\Desktop\onlineshop\StaticResources\obj\Debug\en\StaticResources.resources.dll
 C:\Users\lequy\OneDrive\Desktop\onlineshop\StaticResources\obj\Debug\StaticResources.dll
 C:\Users\lequy\OneDrive\Desktop\onlineshop\StaticResources\obj\Debug\StaticResources.pdb
+D:\Web\OnlineshopHome\StaticResources\bin\Debug\StaticResources.dll
+D:\Web\OnlineshopHome\StaticResources\bin\Debug\StaticResources.pdb
+D:\Web\OnlineshopHome\StaticResources\bin\Debug\en\StaticResources.resources.dll
+D:\Web\OnlineshopHome\StaticResources\obj\Debug\StaticResources.csprojAssemblyReference.cache
+D:\Web\OnlineshopHome\StaticResources\obj\Debug\StaticResources.Resources.resources
+D:\Web\OnlineshopHome\StaticResources\obj\Debug\StaticResources.Resources.en.resources
+D:\Web\OnlineshopHome\StaticResources\obj\Debug\StaticResources.csproj.GenerateResource.cache
+D:\Web\OnlineshopHome\StaticResources\obj\Debug\StaticResources.csproj.CoreCompileInputs.cache
+D:\Web\OnlineshopHome\StaticResources\obj\Debug\en\StaticResources.resources.dll
+D:\Web\OnlineshopHome\StaticResources\obj\Debug\StaticResources.dll
+D:\Web\OnlineshopHome\StaticResources\obj\Debug\StaticResources.pdb

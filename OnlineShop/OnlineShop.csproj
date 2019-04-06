@@ -55,7 +55,7 @@
     </Reference>
     <Reference Include="CKFinder, Version=2.5.0.2791, Culture=neutral, PublicKeyToken=579e7adc719a1423, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\ckfinder\bin\Release\CKFinder.dll</HintPath>
+      <HintPath>assets\admin\js\plugins\ckfinder\bin\Release\CKFinder.dll</HintPath>
     </Reference>
     <Reference Include="Facebook, Version=6.0.10.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
       <HintPath>..\packages\Facebook.7.0.6\lib\net45\Facebook.dll</HintPath>
@@ -599,6 +599,9 @@
     <Content Include="assets\admin\js\plugins\ckeditor\skins\moono\images\refresh.png" />
     <Content Include="assets\admin\js\plugins\ckeditor\skins\moono\images\spinner.gif" />
     <Content Include="assets\admin\js\plugins\ckeditor\styles.js" />
+    <Content Include="assets\admin\js\plugins\ckfinder\bin\Debug\CKFinder.dll" />
+    <Content Include="assets\admin\js\plugins\ckfinder\bin\Debug\CKFinder.pdb" />
+    <Content Include="assets\admin\js\plugins\ckfinder\bin\Release\CKFinder.dll" />
     <Content Include="assets\admin\js\plugins\ckfinder\changelog.txt" />
     <Content Include="assets\admin\js\plugins\ckfinder\ckfinder.html" />
     <Content Include="assets\admin\js\plugins\ckfinder\ckfinder.js" />
@@ -1280,10 +1283,11 @@
     <Content Include="Areas\Admin\Views\Content\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Content\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\401.cshtml" />
-    <Content Include="Areas\Admin\Views\Product\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Product\Create.cshtml" />
     <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\Product\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Category\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
