@@ -1,4 +1,5 @@
 ﻿using Model.Dao;
+using Model.EF;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +28,26 @@ namespace OnlineShop.Areas.Admin.Controllers
         {
             SetViewBag();
             return View();
+        }
+        [HttpPost]
+        public ActionResult Create(Product product )
+        {
+            if (ModelState.IsValid)
+            {
+                var dao = new ProductDao();
+                long id = dao.Insert(product);
+                if (id > 0)
+                {
+                    SetAlert("Thêm user thành công", "success");
+                    return RedirectToAction("Index", "Product");
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Thêm user không thành công");
+                }
+                SetViewBag();
+            }
+            return View("Index");
         }
         public JsonResult LoadImages(long id)
         {
