@@ -4,21 +4,24 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <style>
-    #mapCanvas{
-      
-        height:600px;
+    #mapCanvas {
+        height: 600px;
     }
 </style>
 @section jsFooter{
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-<script src="/assets/client/js/controller/contactController.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJ8LAsl0L0IYMk6zhlMajGhzncKKUIRGw&callback=initMap">
+</script>
+    <script src="/assets/client/js/controller/contactController.js"></script>
     <script>
-       
+
         // This example displays a marker at the center of Australia.
         // When the user clicks the marker, an info window opens.
         //21.046300, 105.793266
+        //10.859152, 106.778938
+        //10.859134, 106.778923
         function initMap() {
-            var uluru = { lat: 21.046300, lng: 105.793266 };
+            var uluru = { lat: 10.859134, lng: 106.778923 };
             var map = new google.maps.Map(document.getElementById('mapCanvas'), {
                 zoom: 18,
                 center: uluru
