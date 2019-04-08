@@ -20,9 +20,12 @@
         {
             var link = "/chi-tiet/" + item.MetaTitle + "-" + item.ID;
             <div class="grid_1_of_4 images_1_of_4">
-                <a href="@link"><img src="@item.Images" alt="" /></a>
-                <h2>@item.Name</h2>
-                <span>@item.CateName</span>
+                <a href="@link">
+                    <div>
+                        <img src="@item.Images" alt="" style="height:280px" />
+                    </div>
+                </a>
+                <h3>@item.Name</h3>
                 <div class="price-details">
                     <div class="price-number">
                         <p><span class="rupees">@(item.Price.HasValue ? item.Price.Value.ToString("N0") : "Liên hệ")</span></p>
