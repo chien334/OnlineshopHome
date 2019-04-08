@@ -64,6 +64,7 @@ namespace OnlineShop.Areas.Admin.Controllers
             return View();
         }
         [HttpPost]
+        [ValidateInput(false)]
         public ActionResult Create(Product product )
         {
             if (ModelState.IsValid)

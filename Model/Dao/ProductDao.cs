@@ -1,4 +1,5 @@
-﻿using Model.EF;
+﻿using Common;
+using Model.EF;
 using Model.ViewModel;
 using PagedList;
 using System;
@@ -75,8 +76,31 @@ namespace Model.Dao
 
         public long Insert(Product product)
         {
+            //if (string.IsNullOrEmpty(product.MetaTitle))
+            //{
+            //    product.MetaTitle = StringHelper.ToUnsignString(product.Name);
+            //}
             db.Products.Add(product);
             db.SaveChanges();
+            //if (!string.IsNullOrEmpty(product.Code))
+            //{
+            //    string[] tags = product.Tags.Split(',');
+            //    foreach (var tag in tags)
+            //    {
+            //        var tagId = StringHelper.ToUnsignString(tag);
+            //        var existedTag = this.CheckTag(tagId);
+
+            //        //insert to to tag table
+            //        if (!existedTag)
+            //        {
+            //            this.InsertTag(tagId, tag);
+            //        }
+
+            //        //insert to content tag
+            //        this.InsertContentTag(content.ID, tagId);
+
+            //    }
+            //}
             return product.ID;
         }
         public bool Delete(int id)
@@ -96,17 +120,21 @@ namespace Model.Dao
         }
         public bool Update(Product entity)
         {
+            if (string.IsNullOrEmpty(entity.MetaTitle))
+            {
+                entity.MetaTitle = StringHelper.ToUnsignString(entity.Name);
+            }
             try
             {
                 var product = db.Products.Find(entity.ID);
                 product.Name = entity.Name;
                 product.Code = entity.Code;
                 product.CreatedBy = entity.CreatedBy;
-                product.CreatedDate = DateTime.Now;
+                product.CreatedDate = entity.CreatedDate;
                 product.Detail = entity.Detail;
                 product.Image = entity.Image;
                 product.Status = entity.Status;
-                product.TopHot = Convert.ToDateTime(entity.TopHot);
+                product.TopHot = entity.TopHot;
                 product.Price = entity.Price;
                 product.PromotionPrice = entity.PromotionPrice;
                 product.Quantity = entity.Quantity;
