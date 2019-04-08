@@ -1210,6 +1210,7 @@
     <Content Include="assets\client\data\Provinces_Data.xml" />
     <Content Include="assets\client\font\fontawesome-webfont.svg" />
     <Content Include="assets\client\font\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\client\images\dell-inspiron5570.png" />
     <Content Include="assets\client\images\a8.jfif" />
     <Content Include="assets\client\images\facebook.png" />
     <Content Include="assets\client\images\j7.jfif" />
@@ -1288,6 +1289,7 @@
     <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Admin\Views\Product\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Category\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Product\Edit.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

@@ -73,11 +73,55 @@ namespace Model.Dao
         }
 
 
-        public long Insert(Product entity)
+        public long Insert(Product product)
         {
-            db.Products.Add(entity);
+            db.Products.Add(product);
             db.SaveChanges();
-            return entity.ID;
+            return product.ID;
+        }
+        public bool Delete(int id)
+        {
+            try
+            {
+                var product = db.Products.Find(id);
+                db.Products.Remove(product);
+                db.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+
+        }
+        public bool Update(Product entity)
+        {
+            try
+            {
+                var product = db.Products.Find(entity.ID);
+                product.Name = entity.Name;
+                product.Code = entity.Code;
+                product.CreatedBy = entity.CreatedBy;
+                product.CreatedDate = DateTime.Now;
+                product.Detail = entity.Detail;
+                product.Image = entity.Image;
+                product.Status = entity.Status;
+                product.TopHot = Convert.ToDateTime(entity.TopHot);
+                product.Price = entity.Price;
+                product.PromotionPrice = entity.PromotionPrice;
+                product.Quantity = entity.Quantity;
+                product.MetaTitle = entity.MetaTitle;
+                product.IncludedVAT = entity.IncludedVAT;
+                product.CategoryID = entity.CategoryID;
+                db.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                //logging
+                return false;
+            }
+
         }
         public List<ProductViewModel> Search(string keyword, ref int totalRecord, int pageIndex = 1, int pageSize = 2)
         {

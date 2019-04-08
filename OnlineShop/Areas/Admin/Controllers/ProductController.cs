@@ -22,6 +22,40 @@ namespace OnlineShop.Areas.Admin.Controllers
             ViewBag.SearchString = searchString;
             return View(model);
         }
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+            var product = new ProductDao().ViewDetail(id);
+            SetViewBag();
+            return View(product);
+        }
+        [HttpDelete]
+        public ActionResult Delete(int id)
+        {
+            new ProductDao().Delete(id);
+
+            return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public ActionResult Edit(Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                var dao = new ProductDao();
+                var result = dao.Update(product);
+                if (result)
+                {
+                    SetAlert("Sửa sản phẩm thành công", "success");
+                    return RedirectToAction("Index", "Product");
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Cập nhật sản phẩm không thành công");
+                }
+            }
+            return View("Index");
+        }
+          
 
         [HttpGet]
         public ActionResult Create()
@@ -38,14 +72,13 @@ namespace OnlineShop.Areas.Admin.Controllers
                 long id = dao.Insert(product);
                 if (id > 0)
                 {
-                    SetAlert("Thêm user thành công", "success");
+                    SetAlert("Thêm sản phẩm thành công", "success");
                     return RedirectToAction("Index", "Product");
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Thêm user không thành công");
+                    ModelState.AddModelError("", "Thêm sản phẩm  không thành công");
                 }
-                SetViewBag();
             }
             return View("Index");
         }

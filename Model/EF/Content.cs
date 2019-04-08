@@ -10,7 +10,11 @@
     public partial class Content
     {
         public long ID { get; set; }
+<<<<<<< HEAD
         [Display(Name ="Tên Sản Phẩm")]
+=======
+        [Display (Name ="T�n Content")]
+>>>>>>> fab6d30b66bbd1acef71ba968d568d63b4363ffb
         [StringLength(250)]
         public string Name { get; set; }
         [Display(Name ="Đường Dẫn")]
