@@ -73,11 +73,11 @@ namespace Model.Dao
         }
 
 
-        public long Insert(Product entity)
+        public long Insert(Product product)
         {
-            db.Products.Add(entity);
+            db.Products.Add(product);
             db.SaveChanges();
-            return entity.ID;
+            return product.ID;
         }
         public List<ProductViewModel> Search(string keyword, ref int totalRecord, int pageIndex = 1, int pageSize = 2)
         {

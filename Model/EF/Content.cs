@@ -10,7 +10,7 @@ namespace Model.EF
     public partial class Content
     {
         public long ID { get; set; }
-
+        [Display (Name ="Tên Content")]
         [StringLength(250)]
         public string Name { get; set; }
 

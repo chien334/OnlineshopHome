@@ -58,8 +58,12 @@
         @foreach (var item in listNewProducts)
         {
             var url = "/chi-tiet/" + item.MetaTitle + "-" + item.ID;
-            <div class="grid_1_of_4 images_1_of_4">
-                <a href="@url"><img src="@item.Image" alt="@item.Name" /></a>
+            <div class="grid_1_of_4 images_1_of_4" style="height:430px ; width:250px">
+                <a href="@url">
+                    <div>
+                        <img src="@item.Image" alt="@item.Name"  style="height:100%"/>
+                    </div>
+                </a>
                 <h2>@item.Name</h2>
                 <div class="price-details">
                     <div class="price-number">

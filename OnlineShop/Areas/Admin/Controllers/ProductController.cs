@@ -38,14 +38,13 @@ namespace OnlineShop.Areas.Admin.Controllers
                 long id = dao.Insert(product);
                 if (id > 0)
                 {
-                    SetAlert("Thêm user thành công", "success");
+                    SetAlert("Thêm sản phẩm thành công", "success");
                     return RedirectToAction("Index", "Product");
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Thêm user không thành công");
+                    ModelState.AddModelError("", "Thêm sản phẩm  không thành công");
                 }
-                SetViewBag();
             }
             return View("Index");
         }

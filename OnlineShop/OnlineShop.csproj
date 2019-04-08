@@ -1210,6 +1210,7 @@
     <Content Include="assets\client\data\Provinces_Data.xml" />
     <Content Include="assets\client\font\fontawesome-webfont.svg" />
     <Content Include="assets\client\font\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\client\images\dell-inspiron5570.png" />
     <Content Include="assets\client\images\a8.jfif" />
     <Content Include="assets\client\images\facebook.png" />
     <Content Include="assets\client\images\j7.jfif" />
