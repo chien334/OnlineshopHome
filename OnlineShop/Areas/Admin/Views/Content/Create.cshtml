@@ -24,7 +24,7 @@
         });
     </script>
 }
-@using (Html.BeginForm())
+@using (Html.BeginForm("Create", "Content", FormMethod.Post))
 {
     @Html.AntiForgeryToken()
 
