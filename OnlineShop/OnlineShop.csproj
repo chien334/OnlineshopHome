@@ -1205,8 +1205,12 @@
     <Content Include="assets\client\css\bootstrap-theme.min.css" />
     <Content Include="assets\client\css\bootstrap.css" />
     <Content Include="assets\client\css\bootstrap.min.css" />
+    <Content Include="assets\client\css\easy-responsive-tabs.css" />
     <Content Include="assets\client\css\font-awesome.min.css" />
+    <Content Include="assets\client\css\global.css" />
     <Content Include="assets\client\css\jquery-ui.css" />
+    <Content Include="assets\client\css\slider.css" />
+    <Content Include="assets\client\css\style.css" />
     <Content Include="assets\client\data\Provinces_Data.xml" />
     <Content Include="assets\client\font\fontawesome-webfont.svg" />
     <Content Include="assets\client\font\glyphicons-halflings-regular.svg" />
@@ -1218,6 +1222,9 @@
     <Content Include="assets\client\images\s10.jfif" />
     <Content Include="assets\client\images\s7.jfif" />
     <Content Include="assets\client\images\s9.jfif" />
+    <Content Include="assets\client\images\slide-1-image.png" />
+    <Content Include="assets\client\images\slide-2-image.jpg" />
+    <Content Include="assets\client\images\slide-3-image.jpg" />
     <Content Include="assets\client\js\bootstrap.min.js" />
     <Content Include="assets\client\js\controller\baseController.js" />
     <Content Include="assets\client\js\controller\cartController.js" />
