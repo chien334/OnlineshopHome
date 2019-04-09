@@ -31,3 +31,14 @@ C:\Users\Admin\Source\Repos\OnlineshopHome2\StaticResources\obj\Debug\StaticReso
 C:\Users\Admin\Source\Repos\OnlineshopHome2\StaticResources\obj\Debug\en\StaticResources.resources.dll
 C:\Users\Admin\Source\Repos\OnlineshopHome2\StaticResources\obj\Debug\StaticResources.dll
 C:\Users\Admin\Source\Repos\OnlineshopHome2\StaticResources\obj\Debug\StaticResources.pdb
+E:\OnlineshopHome\StaticResources\bin\Debug\StaticResources.dll
+E:\OnlineshopHome\StaticResources\bin\Debug\StaticResources.pdb
+E:\OnlineshopHome\StaticResources\bin\Debug\en\StaticResources.resources.dll
+E:\OnlineshopHome\StaticResources\obj\Debug\StaticResources.csprojAssemblyReference.cache
+E:\OnlineshopHome\StaticResources\obj\Debug\StaticResources.Resources.resources
+E:\OnlineshopHome\StaticResources\obj\Debug\StaticResources.Resources.en.resources
+E:\OnlineshopHome\StaticResources\obj\Debug\StaticResources.csproj.GenerateResource.cache
+E:\OnlineshopHome\StaticResources\obj\Debug\StaticResources.csproj.CoreCompileInputs.cache
+E:\OnlineshopHome\StaticResources\obj\Debug\en\StaticResources.resources.dll
+E:\OnlineshopHome\StaticResources\obj\Debug\StaticResources.dll
+E:\OnlineshopHome\StaticResources\obj\Debug\StaticResources.pdb
