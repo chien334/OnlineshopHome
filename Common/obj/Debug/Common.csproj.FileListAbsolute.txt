@@ -16,3 +16,9 @@ C:\Users\Admin\Source\Repos\OnlineshopHome2\Common\obj\Debug\Common.csprojAssemb
 C:\Users\Admin\Source\Repos\OnlineshopHome2\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Source\Repos\OnlineshopHome2\Common\obj\Debug\Common.dll
 C:\Users\Admin\Source\Repos\OnlineshopHome2\Common\obj\Debug\Common.pdb
+E:\OnlineshopHome\Common\bin\Debug\Common.dll
+E:\OnlineshopHome\Common\bin\Debug\Common.pdb
+E:\OnlineshopHome\Common\obj\Debug\Common.csprojAssemblyReference.cache
+E:\OnlineshopHome\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+E:\OnlineshopHome\Common\obj\Debug\Common.dll
+E:\OnlineshopHome\Common\obj\Debug\Common.pdb
