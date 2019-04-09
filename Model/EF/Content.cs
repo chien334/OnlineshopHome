@@ -27,7 +27,6 @@
         [Display(Name ="Chi Tiết")]
         [Column(TypeName = "ntext")]
         public string Detail { get; set; }
-        [Display(Name ="")]
         public int? Warranty { get; set; }
         [Display(Name ="Ngày Tạo")]
         public DateTime? CreatedDate { get; set; }
@@ -39,7 +38,6 @@
         [Display(Name ="Người Sửa Đổi")]
         [StringLength(50)]
         public string ModifiedBy { get; set; }
-        [Display(Name ="")]
         [StringLength(250)]
         public string MetaKeywords { get; set; }
         [Display(Name ="Mô Tả")]
